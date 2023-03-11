@@ -1,5 +1,6 @@
 /*body margin*/
 *{
+    position: relative;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +11,13 @@
 .container{
     position: absolute;
     
-    background-image: url('./3-men-walk-along-hill-with-backpacks-with-white-clouds-peak-volcano-background.jpg');
+    background-image: url('./Header-2019.09.25-5-underrated-hiking-trails-in-Eastern-Europe-GetYourGuide.jpg');
+    background-repeat: no-repeat;
+
+    
+}
+a{
+    color: white;
 }
 
 /*pointer text center*/
@@ -23,6 +30,7 @@ div{
 /*overwrite back color back*/
 .menu a:hover{
     background-color: black;
+    border-radius: 10px;
     color: white;
 }
 
@@ -33,11 +41,11 @@ div{
  }
 
  /*search icon */
- input[type=text] {
+ .rounded float-right {
     width: 170px;
     box-sizing: border-box;
     border: 2px solid #ccc;
-    border-radius: 26px;
+    border-radius: 30px;
     font-size: 16px;
     background-color: white;
     background-position: 10px ; 
@@ -47,11 +55,11 @@ div{
     transition: width 0.4s ease-in-out;
   }
  
-  p{
-    color: black;
-  }
-  
  
+ 
+ h5{
+    color: black;
+ }
 
-
+ 
  
