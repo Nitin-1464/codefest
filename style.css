@@ -1,0 +1,37 @@
+/*body margin*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*container background image*/
+.container{
+    position: absolute;
+    
+    background-image: url('./3-men-walk-along-hill-with-backpacks-with-white-clouds-peak-volcano-background.jpg');
+}
+
+/*pointer text center*/
+p{
+    text-align: center;
+    color: aliceblue;
+ }
+
+/*overwrite back color back*/
+.menu a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*active one one start*/
+ .menu a:active{
+    background-color: black;
+    color: white;
+ }
+  
+
+
+
+ 
